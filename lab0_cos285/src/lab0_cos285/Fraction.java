@@ -13,6 +13,12 @@ public class Fraction implements INumber{
 	}
 	
 	// Methods
+
+	//plus method written by: 
+
+	// Addition Method
+	// Colby Cormier
+
 	public double plus(double input)
 	{
 		return (fractionValue + input);
@@ -24,12 +30,24 @@ public class Fraction implements INumber{
 	{
 		return (fractionValue - input);
 	}
-
-	// divides the input
-	// made by Nikan Kadkhodazadeh
-	public double divide(double input)
+	
+	//Divide method written by: Audrey 
+	public double divide(double input) 
 	{
 		return (fractionValue / input);
+	}
+	
+	//mult method written by: Audrey & ??
+	public double multiply(double input) {
+		return (fractionValue * input);
+	}
+
+
+	
+	@Override
+	public Object divide(Object input) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	public double multiply(double input) 
@@ -37,15 +55,6 @@ public class Fraction implements INumber{
 		return (fractionValue * input);
 	}
 
-	@Override
-	public void print() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	
-
-	
 	public void print() 
 	{
 		System.out.println(fractionValue);
