@@ -24,7 +24,7 @@ public class Fraction implements INumber{
 		return (fractionValue + input);
 	}
 	
-	// minus the inpuT
+	// minus the input
 	// made by Nikan Kadkhodazadeh
 	public double minus(double input)
 	{
