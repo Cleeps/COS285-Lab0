@@ -13,7 +13,6 @@ public class Fraction implements INumber{
 	}
 	
 	// Methods
-	//
 	public double plus(double input)
 	{
 		return (fractionValue + input);
@@ -37,17 +36,13 @@ public class Fraction implements INumber{
 		return null;
 	}
 
-	@Override
-	public Object multiply(Object input) {
-		// TODO Auto-generated method stub
-		return null;
+	public double multiply(double input) 
+	{
+		return (fractionValue * input);
 	}
-
-	@Override
-	public void print() {
-		// TODO Auto-generated method stub
-		
-	}
-
 	
+	public void print() 
+	{
+		System.out.println(fractionValue);
+	}
 }
