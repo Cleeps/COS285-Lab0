@@ -1,5 +1,6 @@
 package lab0_cos285;
 
+// Fraction Class
 public class Fraction implements INumber{
 
 	// Fields
