@@ -13,7 +13,7 @@ public class Fraction implements INumber{
 	}
 	
 	// Methods
-	//
+	//plus method written by: 
 	public double plus(double input)
 	{
 		return (fractionValue + input);
@@ -25,8 +25,20 @@ public class Fraction implements INumber{
 	{
 		return (fractionValue - input);
 	}
+	
+	//Divide method written by: Audrey 
+	public double divide(double input) 
+	{
+		return (fractionValue / input);
+	}
+	
+	//mult method written by: Audrey & ??
+	public double multiply(double input) {
+		return (fractionValue * input);
+	}
 
 
+	
 	@Override
 	public Object divide(Object input) {
 		// TODO Auto-generated method stub
