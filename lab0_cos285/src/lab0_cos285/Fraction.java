@@ -17,18 +17,14 @@ public class Fraction implements INumber{
 	{
 		return (fractionValue + input);
 	}
-
-	@Override
-	public Object plus(Object input) {
-		// TODO Auto-generated method stub
-		return null;
+	
+	// minus the inpuT
+	// made by Nikan Kadkhodazadeh
+	public double minus(double input)
+	{
+		return (fractionValue - input);
 	}
 
-	@Override
-	public Object minus(Object input) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 	@Override
 	public Object divide(Object input) {
@@ -40,6 +36,18 @@ public class Fraction implements INumber{
 	{
 		return (fractionValue * input);
 	}
+<<<<<<< HEAD
+=======
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+
+>>>>>>> branch 'main' of https://github.com/Cleeps/COS285-Lab0.git
 	
 	public void print() 
 	{
