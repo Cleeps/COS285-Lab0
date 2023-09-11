@@ -13,6 +13,8 @@ public class Fraction implements INumber{
 	}
 	
 	// Methods
+	// Addition Method
+	// Colby Cormier
 	public double plus(double input)
 	{
 		return (fractionValue + input);
@@ -36,19 +38,7 @@ public class Fraction implements INumber{
 	{
 		return (fractionValue * input);
 	}
-<<<<<<< HEAD
-=======
 
-	@Override
-	public void print() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	
-
->>>>>>> branch 'main' of https://github.com/Cleeps/COS285-Lab0.git
-	
 	public void print() 
 	{
 		System.out.println(fractionValue);
