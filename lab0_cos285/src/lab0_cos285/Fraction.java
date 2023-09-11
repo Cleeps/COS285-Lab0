@@ -13,6 +13,7 @@ public class Fraction implements INumber{
 	}
 	
 	// Methods
+	//
 	public double plus(double input)
 	{
 		return (fractionValue + input);
