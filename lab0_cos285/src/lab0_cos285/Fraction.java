@@ -50,4 +50,11 @@ public class Fraction implements INumber{
 	{
 		System.out.println(fractionValue);
 	}
+
+	// Compare method 
+	// Colby Cormier
+	boolean hasSameValue (Fraction F) 
+	{
+		return (this.fractionValue == F.fractionValue);
+	}
 }
