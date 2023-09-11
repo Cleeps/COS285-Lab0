@@ -37,24 +37,13 @@ public class Fraction implements INumber{
 		return (fractionValue / input);
 	}
 	
-	//mult method written by: Audrey & ??
+	//mult method written by: Audrey
 	public double multiply(double input) {
 		return (fractionValue * input);
 	}
 
-
-	
-	@Override
-	public Object divide(Object input) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public double multiply(double input) 
-	{
-		return (fractionValue * input);
-	}
-
+	// Print Method 
+	// Colby Cormier
 	public void print() 
 	{
 		System.out.println(fractionValue);
